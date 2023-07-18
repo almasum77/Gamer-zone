@@ -1,0 +1,87 @@
+*{
+    /* margin: 0px 240px; */
+    
+}
+
+body{
+    
+    background-color: whitesmoke;
+}
+
+header{
+    padding: 0px 0px !important;
+}
+
+.pink{
+color: #ff42a5;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  height: 130px;
+  padding: 0px 10%;
+}
+
+.logo{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo>img{
+    width: 86.041px;
+height: 40px;
+flex-shrink: 0;
+}
+
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 10px;
+
+}
+
+.menu>span .followbtn{
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.menu>.followbtn{
+display: flex;
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+text-align: center;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.iconImg{
+    width: 33.916px;
+height: 35px;
+flex-shrink: 0;
+}
